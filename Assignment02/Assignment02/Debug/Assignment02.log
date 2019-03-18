@@ -1,0 +1,6 @@
+﻿  SocialNetwork.cpp
+c:\users\pc\source\repos\assignment02\assignment02\socialnetwork.cpp(79): warning C4018: '<': signed/unsigned mismatch
+  Source.cpp
+  User.cpp
+  Generating Code...
+  Assignment02.vcxproj -> C:\Users\PC\source\repos\Assignment02\Debug\Assignment02.exe
