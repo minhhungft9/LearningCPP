@@ -7,4 +7,4 @@ The application can do the following:
  Creates the atlas metadata which for each image in the atlas includes the name, x axis coordinate, y axis coordinate, width, and height of the image.
  Saves the metadata as a text file in the working directory of the application.
 
-The application uses opencv and filesystem library to manage images and read directory. Please read to PDF document for more information.
+The application uses opencv and filesystem library to manage images and read directory.
