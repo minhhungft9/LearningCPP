@@ -74,6 +74,5 @@ istream &operator >> (istream& in, Item& i) {
 	in >> i.m_price;
 	in >> i.m_amount;
 	in >> i.m_sold;
-	//in.ignore(1024, '\n');
 	return in;
 }

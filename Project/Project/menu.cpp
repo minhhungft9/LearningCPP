@@ -93,8 +93,7 @@ void Menu::handleCommand() {
 		}
 
 		else if (command == "5") {
-			//stock->loadList();
-			stock->loadMoney();
+			//stock->loadMoney();
 			ifstream myStock("myStock.txt");
 			if (myStock.is_open()) {
 				myStock >> *stock;
@@ -108,8 +107,7 @@ void Menu::handleCommand() {
 		}
 
 		else if (command == "6") {
-			//stock->saveList();
-			stock->saveMoney();
+			//stock->saveMoney();
 			ofstream myStock("myStock.txt");
 			if (myStock.is_open()) {
 				myStock << *stock;
